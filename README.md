@@ -5,7 +5,7 @@
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ## 📊 Project Overview
-An end-to-end Retail Sales Intelligence Platform built on the Kaggle Superstore dataset (9,994 orders). This project demonstrates the complete data analyst workflow — from raw data ingestion to a 5-page interactive Power BI dashboard.
+An end-to-end Retail Sales Intelligence Platform built on the Kaggle Superstore dataset (9,994 orders). This project demonstrates the complete data analyst workflow - from raw data ingestion to a 5-page interactive Power BI dashboard.
 
 **Built for:** Data Analyst Portfolio | Iqlytics Application
 
@@ -51,10 +51,10 @@ supermart-retail-analytics/
 ### Star Schema Design
 Transformed raw Superstore CSV into a proper star schema with 4 tables:
 
-- **fact_orders** — 9,994 transaction rows with calculated fields
-- **dim_customers** — 793 unique customers with segments
-- **dim_products** — 1,862 unique products with categories
-- **dim_location** — 604 unique locations with regions
+- **fact_orders** - 9,994 transaction rows with calculated fields
+- **dim_customers** - 793 unique customers with segments
+- **dim_products** - 1,862 unique products with categories
+- **dim_location** - 604 unique locations with regions
 
 ### Key SQL Features Used
 - `CREATE OR REPLACE TABLE` for idempotent table creation
